@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zthadMfwVGA++AVfaWfbTgYPNcuDFuFRXzOmZ7Vx3CXNQs81pvWxmlFrnfgr74MC0OHISvudk0dFDh+w0pyoVw==",
+  "dgSpecHash": "bBZvk5alqaOP41r+3tiYIn6djoBIouHiElpo1y7xpToopCpQUj+QdjmBDzizDN/9Pw7t7dDLQf1vhqCAsX4OUg==",
   "success": true,
-  "projectFilePath": "/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/ShoppingApp.Domain.csproj",
+  "projectFilePath": "C:\\Projects\\Temp\\shopping-app\\ShoppingApp.Domain\\ShoppingApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

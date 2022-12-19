@@ -10,3 +10,15 @@
 /Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/Debug/net7.0/refint/ShoppingApp.Domain.dll
 /Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/Debug/net7.0/ShoppingApp.Domain.pdb
 /Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/Debug/net7.0/ref/ShoppingApp.Domain.dll
+C:\Projects\Temp\shopping-app\ShoppingApp.Domain\bin\Debug\net7.0\ShoppingApp.Domain.deps.json
+C:\Projects\Temp\shopping-app\ShoppingApp.Domain\bin\Debug\net7.0\ShoppingApp.Domain.dll
+C:\Projects\Temp\shopping-app\ShoppingApp.Domain\bin\Debug\net7.0\ShoppingApp.Domain.pdb
+C:\Projects\Temp\shopping-app\ShoppingApp.Domain\obj\Debug\net7.0\ShoppingApp.Domain.csproj.AssemblyReference.cache
+C:\Projects\Temp\shopping-app\ShoppingApp.Domain\obj\Debug\net7.0\ShoppingApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Temp\shopping-app\ShoppingApp.Domain\obj\Debug\net7.0\ShoppingApp.Domain.AssemblyInfoInputs.cache
+C:\Projects\Temp\shopping-app\ShoppingApp.Domain\obj\Debug\net7.0\ShoppingApp.Domain.AssemblyInfo.cs
+C:\Projects\Temp\shopping-app\ShoppingApp.Domain\obj\Debug\net7.0\ShoppingApp.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\Temp\shopping-app\ShoppingApp.Domain\obj\Debug\net7.0\ShoppingApp.Domain.dll
+C:\Projects\Temp\shopping-app\ShoppingApp.Domain\obj\Debug\net7.0\refint\ShoppingApp.Domain.dll
+C:\Projects\Temp\shopping-app\ShoppingApp.Domain\obj\Debug\net7.0\ShoppingApp.Domain.pdb
+C:\Projects\Temp\shopping-app\ShoppingApp.Domain\obj\Debug\net7.0\ref\ShoppingApp.Domain.dll

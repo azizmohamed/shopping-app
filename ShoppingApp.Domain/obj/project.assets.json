@@ -8,29 +8,29 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/aziz/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\AbdelazizMohamed\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/ShoppingApp.Domain.csproj",
+      "projectUniqueName": "C:\\Projects\\Temp\\shopping-app\\ShoppingApp.Domain\\ShoppingApp.Domain.csproj",
       "projectName": "ShoppingApp.Domain",
-      "projectPath": "/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/ShoppingApp.Domain.csproj",
-      "packagesPath": "/Users/aziz/.nuget/packages/",
-      "outputPath": "/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/",
+      "projectPath": "C:\\Projects\\Temp\\shopping-app\\ShoppingApp.Domain\\ShoppingApp.Domain.csproj",
+      "packagesPath": "C:\\Users\\AbdelazizMohamed\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\Temp\\shopping-app\\ShoppingApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/aziz/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\AbdelazizMohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/v3/index.json": {},
+        "https://pkgs.dev.azure.com/willowdev/WillowLib/_packaging/WillowLib/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
