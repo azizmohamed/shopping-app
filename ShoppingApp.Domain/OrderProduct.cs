@@ -1,6 +1,6 @@
 using System;
 
-namespace ShoppingApp.Model
+namespace ShoppingApp.Domain
 {
     public class OrderProduct
     {

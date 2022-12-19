@@ -1,0 +1,12 @@
+/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/bin/Debug/net7.0/ShoppingApp.Domain.deps.json
+/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/bin/Debug/net7.0/ShoppingApp.Domain.dll
+/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/bin/Debug/net7.0/ShoppingApp.Domain.pdb
+/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/Debug/net7.0/ShoppingApp.Domain.csproj.AssemblyReference.cache
+/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/Debug/net7.0/ShoppingApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/Debug/net7.0/ShoppingApp.Domain.AssemblyInfoInputs.cache
+/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/Debug/net7.0/ShoppingApp.Domain.AssemblyInfo.cs
+/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/Debug/net7.0/ShoppingApp.Domain.csproj.CoreCompileInputs.cache
+/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/Debug/net7.0/ShoppingApp.Domain.dll
+/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/Debug/net7.0/refint/ShoppingApp.Domain.dll
+/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/Debug/net7.0/ShoppingApp.Domain.pdb
+/Users/aziz/Code/interviews/shopping-app/ShoppingApp.Domain/obj/Debug/net7.0/ref/ShoppingApp.Domain.dll

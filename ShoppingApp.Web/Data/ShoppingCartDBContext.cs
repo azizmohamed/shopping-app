@@ -1,6 +1,6 @@
 using System;
 using Microsoft.EntityFrameworkCore;
-using ShoppingApp.Model;
+using ShoppingApp.Domain;
 
 namespace ShoppingApp.Data
 {

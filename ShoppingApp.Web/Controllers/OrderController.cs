@@ -21,7 +21,7 @@ namespace ShoppingApp.Controllers
         [HttpPost("calculate")]
         public OrderAmount CalculateAmount([FromBody] IEnumerable<OrderProduct> orderProducts)
         {
-            var amount = _orderRepository.CalculateAmount(_mapper.Map<IEnumerable<Model.OrderProduct>>(orderProducts));
+            var amount = _orderRepository.CalculateAmount(_mapper.Map<IEnumerable<Domain.OrderProduct>>(orderProducts));
             var shipping = amount > 50 ? 20 : 10;
             return new OrderAmount(){
                 Amount = amount,
@@ -34,7 +34,7 @@ namespace ShoppingApp.Controllers
         [HttpPost("place")]
         public Order PlaceOrder([FromBody] IEnumerable<OrderProduct> orderProducts)
         {
-            var placedOrder = _orderRepository.PlaceOrder(_mapper.Map<IEnumerable<Model.OrderProduct>>(orderProducts));
+            var placedOrder = _orderRepository.PlaceOrder(_mapper.Map<IEnumerable<Domain.OrderProduct>>(orderProducts));
             return _mapper.Map<Order>(placedOrder);
         }
     }

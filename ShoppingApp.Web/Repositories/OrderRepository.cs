@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using ShoppingApp.Data;
-using ShoppingApp.Model;
+using ShoppingApp.Domain;
 using System.Linq;
 
 namespace ShoppingApp.Repositories

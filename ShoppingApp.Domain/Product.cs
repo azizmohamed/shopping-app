@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ShoppingApp.Model
+namespace ShoppingApp.Domain
 {
     public class Product
     {

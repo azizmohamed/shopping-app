@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using ShoppingApp.Model;
+using ShoppingApp.Domain;
 
 namespace ShoppingApp.Repositories
 {

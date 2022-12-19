@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/ShoppingApp.csproj",
+                "${workspaceFolder}/ShoppingApp.Web/ShoppingApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/ShoppingApp.csproj",
+                "${workspaceFolder}/ShoppingApp.Web/ShoppingApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/ShoppingApp.csproj"
+                "${workspaceFolder}/ShoppingApp.Web/ShoppingApp.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
