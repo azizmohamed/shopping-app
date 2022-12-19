@@ -14,7 +14,7 @@ const OrderPlaced = () => {
         height: "100%"
       }}
     >
-      <Typography variant="h2">Congratulation</Typography>
+      <Typography variant="h2">Congratulations</Typography>
       <Typography variant="h5">
         Your order has been placed and we will process it soon.
       </Typography>
