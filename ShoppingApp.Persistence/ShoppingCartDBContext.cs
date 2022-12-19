@@ -2,7 +2,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using ShoppingApp.Domain;
 
-namespace ShoppingApp.Data
+namespace ShoppingApp.Persistence
 {
     public class ShoppingAppDbContext : DbContext
     {

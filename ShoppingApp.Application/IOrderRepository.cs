@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using ShoppingApp.Domain;
 
-namespace ShoppingApp.Repositories
+namespace ShoppingApp.Application
 {
     public interface IOrderRepository
     {

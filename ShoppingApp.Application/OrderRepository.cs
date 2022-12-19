@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using ShoppingApp.Data;
+using ShoppingApp.Persistence;
 using ShoppingApp.Domain;
 using System.Linq;
 
-namespace ShoppingApp.Repositories
+namespace ShoppingApp.Application
 {
     public class OrderRepository : IOrderRepository
     {

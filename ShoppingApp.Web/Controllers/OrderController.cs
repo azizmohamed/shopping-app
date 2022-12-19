@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using ShoppingApp.ViewModel;
 using System.Linq;
-using ShoppingApp.Repositories;
+using ShoppingApp.Application;
 using AutoMapper;
 
 namespace ShoppingApp.Controllers

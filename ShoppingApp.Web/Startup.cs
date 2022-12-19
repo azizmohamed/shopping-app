@@ -7,8 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ShoppingApp.Data;
-using ShoppingApp.Repositories;
+using ShoppingApp.Application;
+using ShoppingApp.Persistence;
 
 namespace ShoppingApp
 {

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using ShoppingApp.Domain;
 
-namespace ShoppingApp.Repositories
+namespace ShoppingApp.Application
 {
     public interface IProductRepository
     {

@@ -26,6 +26,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ShoppingApp.Domain\ShoppingApp.Domain.csproj" />
+    <ProjectReference Include="..\ShoppingApp.Domain\ShoppingApp.Application.csproj" />
+    <ProjectReference Include="..\ShoppingApp.Domain\ShoppingApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\ShoppingApp.Infrastructure\ShoppingApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\ShoppingApp.Application\ShoppingApp.Application.csproj" />
+    <ProjectReference Include="..\ShoppingApp.Persistence\ShoppingApp.Persistence.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

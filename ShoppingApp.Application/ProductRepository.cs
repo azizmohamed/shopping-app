@@ -3,10 +3,10 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
-using ShoppingApp.Data;
+using ShoppingApp.Persistence;
 using ShoppingApp.Domain;
 
-namespace ShoppingApp.Repositories
+namespace ShoppingApp.Application
 {
     public class ProductRepository : IProductRepository
     {
