@@ -3,23 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp", "ShoppingApp.Web\ShoppingApp.csproj", "{98A75E1F-406F-4119-A1EE-E83500F1DCAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp", "ShoppingApp.Web\ShoppingApp.csproj", "{98A75E1F-406F-4119-A1EE-E83500F1DCAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.Domain", "ShoppingApp.Domain\ShoppingApp.Domain.csproj", "{04CD1C69-2595-4228-9745-2D8721D85479}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.Domain", "ShoppingApp.Domain\ShoppingApp.Domain.csproj", "{04CD1C69-2595-4228-9745-2D8721D85479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.Application", "ShoppingApp.Application\ShoppingApp.Application.csproj", "{F9DFC5D3-3E6D-4B2E-AB14-3404F86147BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.Application", "ShoppingApp.Application\ShoppingApp.Application.csproj", "{F9DFC5D3-3E6D-4B2E-AB14-3404F86147BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.Persistence", "ShoppingApp.Persistence\ShoppingApp.Persistence.csproj", "{5B4B011B-6C49-48B2-B3E7-6407D87C49DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.Persistence", "ShoppingApp.Persistence\ShoppingApp.Persistence.csproj", "{5B4B011B-6C49-48B2-B3E7-6407D87C49DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.Tests", "ShoppingApp.Tests\ShoppingApp.Tests.csproj", "{33A2D09C-4382-4D33-90B7-7D58758F01E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.Tests", "ShoppingApp.Tests\ShoppingApp.Tests.csproj", "{33A2D09C-4382-4D33-90B7-7D58758F01E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B47AEB1-0F8E-4403-B59E-872A02B758D2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{98A75E1F-406F-4119-A1EE-E83500F1DCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,10 +33,6 @@ Global
 		{04CD1C69-2595-4228-9745-2D8721D85479}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04CD1C69-2595-4228-9745-2D8721D85479}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04CD1C69-2595-4228-9745-2D8721D85479}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91C61D12-753C-4464-AAFF-C4C93816CE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91C61D12-753C-4464-AAFF-C4C93816CE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91C61D12-753C-4464-AAFF-C4C93816CE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91C61D12-753C-4464-AAFF-C4C93816CE4D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F9DFC5D3-3E6D-4B2E-AB14-3404F86147BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F9DFC5D3-3E6D-4B2E-AB14-3404F86147BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9DFC5D3-3E6D-4B2E-AB14-3404F86147BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -46,5 +45,11 @@ Global
 		{33A2D09C-4382-4D33-90B7-7D58758F01E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33A2D09C-4382-4D33-90B7-7D58758F01E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33A2D09C-4382-4D33-90B7-7D58758F01E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {978456D4-E569-4CA1-8625-4E97A7DA97EE}
 	EndGlobalSection
 EndGlobal
