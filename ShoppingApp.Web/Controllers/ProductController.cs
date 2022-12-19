@@ -24,10 +24,10 @@ namespace ShoppingApp.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Product> Get([FromQuery] int page, [FromQuery]int count)
+        public ActionResult<IEnumerable<Product>> Get([FromQuery] int page, [FromQuery]int count)
         {
             var products = _productRepository.GetProducts(page, count);
-            return _mapper.Map<IEnumerable<Product>>(products);
+            return Ok(_mapper.Map<IEnumerable<Product>>(products));
         }
     }
 }

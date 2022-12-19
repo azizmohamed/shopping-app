@@ -17,14 +17,14 @@ namespace ShoppingApp.Application
             return orderProducts.Sum(op => op.Quantity * _dbContext.Product.First(p => p.Id == op.ProductId).Price);
         }
 
-        public Order PlaceOrder(IEnumerable<OrderProduct> orderProducts)
+        public async Task<Order> PlaceOrderAsync(IEnumerable<OrderProduct> orderProducts)
         {
             var order = new Order(){
                 OrderProducts = orderProducts.ToList(),
                 OrderPlaced = true
             };
-            _dbContext.Order.Add(order);
-            _dbContext.SaveChanges();
+            await _dbContext.Order.AddAsync(order);
+            await _dbContext.SaveChangesAsync();
             return order;
         }
     }
