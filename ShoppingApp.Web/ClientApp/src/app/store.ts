@@ -1,12 +1,10 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import { shoppingApi } from '../Api/shoppingApi';
-import counterReducer from '../features/counter/counterSlice';
 import checkoutReducer from '../features/checkout/checkoutSlice';
 
 export const store = configureStore({
   reducer: {
     api: shoppingApi.reducer,
-    counter: counterReducer,
     checkout: checkoutReducer
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(shoppingApi.middleware)

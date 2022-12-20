@@ -3,28 +3,28 @@ import { render } from "@testing-library/react";
 import { Provider } from 'react-redux';
 import { store } from '../../../app/store';
 import { BrowserRouter } from 'react-router-dom';
-import OrderPlaced from "../OrderPlaced";
+import Products from "../Products";
 
-describe("Order Placed Page", () => {
-  it("Should Display Congratulations message", () => {
-    const { getByText } = render(
+describe("Products Page", () => {
+  it("Should have the main container box", () => {
+    const { getByRole } = render(
       <Provider store={store}>
          <BrowserRouter>
-          <OrderPlaced/>
+          <Products/>
         </BrowserRouter>
       </Provider>
     );
-    expect(getByText("Congratulations")).toBeInTheDocument();
+    expect(getByRole("products-container")).toBeInTheDocument();
   });
 
-  it("Should have a link to home page", () => {
-    const { getByText } = render(
+  it("Should have a link to shopping cart", () => {
+    const { getByRole } = render(
       <Provider store={store}>
          <BrowserRouter>
-          <OrderPlaced/>
+          <Products/>
         </BrowserRouter>
       </Provider>
     );
-    expect(getByText("Home")).toBeInTheDocument();
+    expect(getByRole("shopping-cart-link")).toBeInTheDocument();
   });
 });

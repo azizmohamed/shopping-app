@@ -46,7 +46,7 @@ const Checkout = () => {
     },
     mode: "onBlur",
   });
-  const { fields,remove } = useFieldArray(
+  const { fields, remove } = useFieldArray(
     {
       control: methods.control,
       name: "products",
@@ -106,6 +106,7 @@ const Checkout = () => {
     const country = countries.find((c) => c.name === selectedCountry);
     return (
       <Box
+        role={"order-summary"}
         sx={{
           display: "flex",
           flexDirection: "column",
@@ -127,7 +128,7 @@ const Checkout = () => {
         </Typography>
         <Button
           variant="contained"
-          sx={{borderRadius: "1rem"}}
+          sx={{ borderRadius: "1rem" }}
           onClick={methods.handleSubmit(processOrder)}>
           Place Order
         </Button>
@@ -136,8 +137,8 @@ const Checkout = () => {
   };
 
   return (
-    <FormProvider {...methods}>
-      <Box>
+    <FormProvider {...methods} >
+      <Box role={"checkout-container"}>
         <Box
           sx={{
             display: "flex",
@@ -224,7 +225,7 @@ const Checkout = () => {
           </TableBody>
         </Table>
         <OrderSummary />
-        
+
       </Box>
     </FormProvider>
   );

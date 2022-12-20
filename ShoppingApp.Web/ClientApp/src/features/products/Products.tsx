@@ -18,6 +18,7 @@ const Products = () => {
   const dispatch = useAppDispatch();
   return (
     <Box
+      role={"products-container"}
       sx={{
         width: "40rem",
         display: "flex",
@@ -32,7 +33,7 @@ const Products = () => {
           pt: "1rem",
         }}
       >
-        <NavLink tag={Link} to="/shopping-cart">
+        <NavLink tag={Link} to="/shopping-cart" role={"shopping-cart-link"} >
           <ShoppingCartCheckoutIcon
             sx={{ width: "4rem", height: "4rem" }}
           ></ShoppingCartCheckoutIcon>
